@@ -28,3 +28,7 @@ Each child in an array or iterator should have a [unique "key" prop](https://fb.
 2. component variable must start with a upper case letter
 3. render function must include
 4. [Components](https://facebook.github.io/react/docs/components-and-props.html) are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
+
+### Demo06: propTypes
+
+用propTypes可以来验证component的属性
