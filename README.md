@@ -15,3 +15,7 @@
 1. type babel for JSX
 2. use comma , to separate lines
 3. no need semicolon ;
+
+### Demo2
+
+Each child in an array or iterator should have a [unique "key" prop](https://fb.me/react-warning-keys).
