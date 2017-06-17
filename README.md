@@ -2,7 +2,7 @@
 
 ## Syntax 语法
 
-```
+```javascript
 <script type="text/babel">
     ReactDOM.render(
         // use comma , to separate lines
