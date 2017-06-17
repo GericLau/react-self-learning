@@ -2,6 +2,8 @@
 
 ## Syntax 语法
 
+### Demo01
+
 ```javascript
 <script type="text/babel">
     ReactDOM.render(
@@ -16,6 +18,13 @@
 2. use comma , to separate lines
 3. no need semicolon ;
 
-### Demo2
+### Demo02
 
 Each child in an array or iterator should have a [unique "key" prop](https://fb.me/react-warning-keys).
+
+### Demo04: Define a component
+
+1. Use React.createClass to define a component
+2. component variable must start with a upper case letter
+3. render function must include
+4. [Components](https://facebook.github.io/react/docs/components-and-props.html) are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
