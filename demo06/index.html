@@ -8,6 +8,9 @@
     <body>
         <div id="example"></div>
         <script type="text/babel">
+            var myNumber = 666,
+                myString = "Hello World!";
+
             var MyTitle = React.createClass({
                 propTypes: {
                     title: React.PropTypes.string.isRequired,
@@ -19,7 +22,8 @@
             });
 
             ReactDOM.render(
-                <MyTitle title="Hello World!" />,
+                <MyTitle title={myString} />,
+                //<MyTitle title={myNumber} />,
                 document.getElementById('example')
             );
         </script>
