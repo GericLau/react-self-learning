@@ -32,3 +32,7 @@ Each child in an array or iterator should have a [unique "key" prop](https://fb.
 ### Demo06: propTypes
 
 用propTypes可以来验证component的属性
+
+### Demo08: state
+
+define getInitialState
