@@ -36,3 +36,7 @@ Each child in an array or iterator should have a [unique "key" prop](https://fb.
 ### Demo08: state
 
 define getInitialState
+
+### Demo09: form
+
+setState event.target.value not this.target.value
